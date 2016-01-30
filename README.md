@@ -15,7 +15,7 @@ Open Terminal
 git clone https://github.com/electronicsleep/AutoEditMoviePython.git
 cd AutoEditMoviePython
 #MOVE MOVIE FILE TO SDIR LOCATION DEFAULT: ./Camera1
-Usage: python autoeditmovie.py -m moviefile.mp4
+python autoeditmovie.py -m moviefile.mp4
 ```
 
 Todo/Ideas:
