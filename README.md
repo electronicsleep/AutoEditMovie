@@ -7,7 +7,7 @@ Author: Chris Robertson
 
 License: Released under the MIT license
 
-Purpose: Wrapper script for Movie.py a Python CLI Video Editor
+Purpose: Wrapper script for Movie.py a Python CLI Video Editor, curently can mirror a movie clip.
 
 Usage:
 ```
@@ -19,7 +19,7 @@ Usage: python autoeditmovie.py -m moviefile.mp4
 ```
 
 Todo/Ideas:
-* Get edit and contcatinate workig
+* Get edit and concatinate workig
 * Unclear if edit should work on all files
 * Need to think though sold workflows
 
