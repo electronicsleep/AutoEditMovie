@@ -19,9 +19,10 @@ python autoeditmovie.py -m moviefile.mp4
 ```
 
 Todo/Ideas:
-* Get edit and concatinate workig
+* Get edit and concatinate working
 * Unclear if edit should work on all files
-* Need to think though sold workflows
+* Need to think though solid workflows
+* This is an experiment
 
 Resources:
 https://www.python.org/
