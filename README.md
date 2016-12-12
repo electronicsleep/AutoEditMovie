@@ -1,11 +1,11 @@
-AutoEditMoviePython
+AutoEditMovie
 ==========
 
 Learning MoviePy: Mirror, Edit and Concatination
 
 Author: Chris Robertson
 
-License: Released under the MIT license
+License: Released under the BSD license
 
 Purpose: Wrapper script for Movie.py a Python CLI Video Editor, curently can mirror a movie clip.
 
