@@ -13,8 +13,8 @@ Usage:
 ```
 Open Terminal
 pip install moviepy
-git clone https://github.com/electronicsleep/AutoEditMoviePython.git
-cd AutoEditMoviePython
+git clone https://github.com/electronicsleep/AutoEditMovie.git
+cd AutoEditMovie
 #MOVE MOVIE FILE TO SDIR LOCATION DEFAULT: ./Camera1
 python autoeditmovie.py -m moviefile.mp4
 ```
