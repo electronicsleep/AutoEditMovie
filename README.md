@@ -9,6 +9,8 @@ License: Released under the BSD license
 
 Purpose: Wrapper script for Movie.py a Python CLI Video Editor, curently can mirror a movie clip.
 
+Example: https://www.youtube.com/watch?v=72_e-N6xUMI
+
 Usage:
 ```
 Open Terminal
