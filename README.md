@@ -7,7 +7,9 @@ Author: Chris Robertson
 
 License: Released under the BSD license
 
-Purpose: Wrapper script for Movie.py a Python CLI Video Editor, curently can mirror a movie clip.
+Purpose: Automatic Movie editing with MoviePy a Python CLI Video Editor, curently can mirror a movie clip. Should get you started with the basics of MoviePy.
+
+MoviePy: http://zulko.github.io/moviepy/
 
 ![Alt text](screenshot-mirror.jpg?raw=true "Screenshot Mirror")
 
