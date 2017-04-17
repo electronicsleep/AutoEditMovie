@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
-# Author: www.electronicsleep.com
+# Author: https://github.com/electronicsleep
 # Date: 01/30/2016
 # Purpose: Learning MoviePy: Mirror, Edit and Concatination
-# Released under the MIT license
+# Released under the BSD license
 
 # Running:
 # Usage: python autoeditmovie.py -m moviefile.mp4

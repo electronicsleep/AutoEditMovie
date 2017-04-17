@@ -3,7 +3,7 @@ AutoEditMovie
 
 Learning MoviePy: Mirror, Edit and Concatination
 
-Author: www.electronicsleep.com
+Author: https://github.com/electronicsleep
 
 License: Released under the BSD license
 
