@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Author: Chris Robertson <electronicsleep@gmail.com>
+# Author: www.electronicsleep.com
 # Date: 01/30/2016
 # Purpose: Learning MoviePy: Mirror, Edit and Concatination
 # Released under the MIT license
