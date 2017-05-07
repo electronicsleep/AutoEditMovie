@@ -16,7 +16,7 @@ MoviePy: http://zulko.github.io/moviepy/
 [Example:] (https://www.youtube.com/watch?v=72_e-N6xUMI)
 
 Usage:
-``
+```
 Open Terminal
 pip install -r requirements.txt
 git clone https://github.com/electronicsleep/AutoEditMovie.git
@@ -26,7 +26,7 @@ mkdir Camera1
 cp moviefile.mp4 Camera1/moviefile.mp4
 #CREATE A MIRRORED VIDEO
 python autoeditmovie.py -m moviefile.mp4
-``
+```
 
 Todo/Ideas:
 * Verified mirror works on OSX/Linux
