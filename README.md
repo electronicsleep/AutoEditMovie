@@ -31,9 +31,9 @@ python autoeditmovie.py -m moviefile.mp4
 Todo/Ideas:
 * Verified mirror works on OSX/Linux
 * Get edit and concatinate working
-* Stitch a bunch of photos together
-* Unclear if edit should work on all files
-* Need to think though solid workflows
+* Stitch a series of photos together
+* Multiple camera workflow
+* Different effects
 * This is an experiment
 
 ``` 
