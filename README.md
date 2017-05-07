@@ -13,13 +13,12 @@ MoviePy: http://zulko.github.io/moviepy/
 
 ![Alt text](screenshot-mirror.jpg?raw=true "Screenshot Mirror")
 
-Example: https://www.youtube.com/watch?v=72_e-N6xUMI
+[Example:] (https://www.youtube.com/watch?v=72_e-N6xUMI)
 
 Usage:
-```
+``
 Open Terminal
-sudo pip install moviepy
-sudo pip install Pillow==2.1.0
+pip install -r requirements.txt
 git clone https://github.com/electronicsleep/AutoEditMovie.git
 cd AutoEditMovie
 mkdir Camera1
@@ -27,7 +26,7 @@ mkdir Camera1
 cp moviefile.mp4 Camera1/moviefile.mp4
 #CREATE A MIRRORED VIDEO
 python autoeditmovie.py -m moviefile.mp4
-```
+``
 
 Todo/Ideas:
 * Verified mirror works on OSX/Linux
