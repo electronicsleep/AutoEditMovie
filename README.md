@@ -22,9 +22,9 @@ pip install -r requirements.txt
 git clone https://github.com/electronicsleep/AutoEditMovie.git
 cd AutoEditMovie
 mkdir Camera1
-#MOVE MOVIE FILE TO SDIR LOCATION DEFAULT: ./Camera1
+# Move movie file to dir location default Camera1
 cp moviefile.mp4 Camera1/moviefile.mp4
-#CREATE A MIRRORED VIDEO
+# Command to create a mirrored video
 python autoeditmovie.py -m moviefile.mp4
 ```
 
@@ -35,6 +35,12 @@ Todo/Ideas:
 * Unclear if edit should work on all files
 * Need to think though solid workflows
 * This is an experiment
+
+``` 
+# Modules Tested
+pip install moviepy==0.2.3.2
+pip install Pillow==2.1.0
+```
 
 Resources:
 https://www.python.org/
