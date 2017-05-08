@@ -9,8 +9,6 @@ License: Released under the BSD license
 
 Purpose: Automatic Movie editing with MoviePy a Python CLI Video Editor, curently can mirror a movie clip. Should get you started with the basics of MoviePy.
 
-MoviePy: http://zulko.github.io/moviepy/
-
 ![Alt text](screenshot-mirror.jpg?raw=true "Screenshot Mirror")
 
 [Example:] (https://www.youtube.com/watch?v=72_e-N6xUMI)
