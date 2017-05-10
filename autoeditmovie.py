@@ -45,7 +45,7 @@ def main():
     try:
         sys.argv[2]
     except IndexError:
-        print("Usage: autoeditmovie.py -m moviefile.mp4")
+        print("Usage: python autoeditmovie.py -m moviefile.mp4")
         sys.exit(0)
     else:
         print("Checking movie file")
