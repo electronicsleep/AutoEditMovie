@@ -37,7 +37,11 @@ def mkdir_p(path):
 def main():
 
     if args.verbose:
-        print("Verbose ON")
+        print("Verbose on")
+
+    if args.mirror:
+        print(args.mirror)
+        print("You are requesting mirror/concatenation")
 
     mkdir_p(sdir)
     mkdir_p(ddir)
@@ -155,7 +159,7 @@ def main():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--mirror', '-m', help='Mirror movie clip')
-    parser.add_argument('--verbose', '-v', help='Verbose', default=True)
+    parser.add_argument('-m', help='Mirror movie clip', required=True)
+    parser.add_argument('-v', help='Verbose', default=True)
     args = parser.parse_args()
     main()
