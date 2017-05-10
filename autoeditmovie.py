@@ -5,9 +5,9 @@
 # Purpose: Learning MoviePy: Mirror, Edit and Concatination
 # Released under the BSD license
 
-import errno
-import sys
 import os
+import sys
+import errno
 import argparse
 from moviepy.editor import *
 
@@ -149,7 +149,7 @@ def main():
         # clip3 = VideoFileClip(ddir + "videoexample.MP4")
 
         # Build All
-        final_clip = concatenate_videoclips([clip1,clip2,clip3])
+        final_clip = concatenate_videoclips([clip1, clip2, clip3])
         final_clip.write_videofile(ddir + "concatenation.mp4")
 
 
