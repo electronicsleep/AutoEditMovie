@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Author: https://github.com/electronicsleep
 # Date: 01/30/2016
