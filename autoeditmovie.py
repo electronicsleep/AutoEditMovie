@@ -2,7 +2,7 @@
 
 # Author: https://github.com/electronicsleep
 # Date: 01/30/2016
-# Purpose: Learning MoviePy: Mirror, Edit and Concatination
+# Purpose: Learning MoviePy: Mirror, Edit
 # Released under the BSD license
 
 import os
@@ -35,13 +35,6 @@ def mkdir_p(path):
 
 
 def main():
-
-    if args.verbose:
-        print("Verbose on")
-
-    if args.mirror:
-        print(args.mirror)
-        print("You are requesting mirror/concatenation")
 
     mkdir_p(sdir)
     mkdir_p(ddir)
