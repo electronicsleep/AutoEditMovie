@@ -1,7 +1,7 @@
 AutoEditMovie
 ==========
 
-Learning MoviePy: Mirror, Edit and Concatination
+MoviePy: Mirror, Edit
 
 Author: https://github.com/electronicsleep
 
@@ -16,14 +16,25 @@ Purpose: Automatic Movie editing with MoviePy a Python CLI Video Editor, curentl
 Usage:
 ```
 Open Terminal
-pip install -r requirements.txt
 git clone https://github.com/electronicsleep/AutoEditMovie.git
 cd AutoEditMovie
+pip install -r requirements.txt
 mkdir Camera1
 # Move movie file to dir location default Camera1
 cp moviefile.mp4 Camera1/moviefile.mp4
 # Command to create a mirrored video
-python autoeditmovie.py -m moviefile.mp4
+
+# Running:
+# Usage: python autoeditmovie.py -m moviefile.mp4
+# Future: python autoeditmovie.py [-m] [-e] [-c]
+
+# Set source and destination
+# sdir = "Camera1/"
+# ddir = "Camera1/MoviePyOutput/"
+
+# Create dir and process video files
+
+# Make dir if they are not present
 ```
 
 Todo/Ideas:
