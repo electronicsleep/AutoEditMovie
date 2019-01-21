@@ -92,7 +92,7 @@ def main():
                 print(file)
 
         # Load mp4 and select the subclip
-        clip = VideoFileClip(sdir + file).subclip(00,10)
+        clip = VideoFileClip(sdir + file).subclip(00, 10)
 
         # Reduce the audio volume (volume x 0.8)
         # clip = clip.fx( afx.volumex, 0.8)
@@ -107,7 +107,7 @@ def main():
         # clip.mask # the alpha layer of the picture.
 
         # Generate a text clip. You can customize the font, color, etc.
-        txt_clip = TextClip("MEMORY ECHO",fontsize=200,color='black')
+        txt_clip = TextClip("MEMORY ECHO", fontsize=200, color='black')
 
         # Say that you want it to appear 10s at the center of the screen
         txt_clip = txt_clip.set_pos('bottom').set_duration(10)
